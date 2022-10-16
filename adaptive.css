@@ -427,11 +427,11 @@
   .feed .arrow2 {
     display: none;
   }
-  .feed article {
+  .feed .article {
     position: relative;
     justify-content: space-evenly;
   }
-  .feed article::before {
+  .feed .article::before {
     content: "";
     position: absolute;
     top: 5%;
@@ -440,7 +440,7 @@
     height: 70px;
     background: url("online-zoo/icon/green-arrow.png") no-repeat;
   }
-  .feed article::after {
+  .feed .article::after {
     content: "";
     position: absolute;
     top: 5%;
@@ -606,13 +606,13 @@
 .feed .paragraph3 {
     display: none;
   }
-  .feed article {
+  .feed .article {
     width: 168px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .feed article::before {
+  .feed .article::before {
     content: "";
     position: absolute;
     top: 27%;
@@ -622,7 +622,7 @@
     transform: rotate(85deg);
     background: url("online-zoo/icon/green-arrow.png") no-repeat;
   }
-  .feed article::after {
+  .feed .article::after {
     content: "";
     position: absolute;
     top: 60%;

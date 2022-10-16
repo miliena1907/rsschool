@@ -316,7 +316,7 @@ main {
   border-radius: 20px;
   font-family: "Roboto", sans-serif;
 }
-.feed article {
+.feed .article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -435,7 +435,7 @@ main {
   padding-top: 100px;
   font-family: "Roboto", sans-serif;
 }
-.testimonials article {
+.testimonials .testimonials-sreenshot {
   display: flex;
   align-items: center;
   padding: 0 15px;

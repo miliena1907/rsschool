@@ -25,7 +25,7 @@
                      <li><a href="Index.html" class="active">About</a> </li>
                      <li><a href="#">Map</a></li>
                      <li><a href="#">Zoos</a></li>
-                     <li><a href="donate\donate.html">Donate</a></li>
+                     <li><a href="donate/donate.html">Donate</a></li>
                      <li><a href="#">Contact Us</a></li>
                   </ul>
                   <div class="icon"> <a
@@ -41,7 +41,7 @@
          </div>
       </header>
       <main>
-         <section>
+         <div>
             <article class="backstage">
                <div class="img">
                   <picture>
@@ -157,8 +157,7 @@
                </div>
                <button class="choose">CHOOSE YOUR FAVORITE</button>
             </div>
-         </section>
-         </section>
+         </div>
          <div class="feed-wrapper">
             <div class="feed">
                <h2>Pick and feed a friend</h2>
@@ -172,7 +171,7 @@
                   these problems.
                   Please consider <br> a gift to our <a href="../"> Emergency Support Fund</a> . </p>
                <h3>How it works</h3>
-               <article>
+               <div class="article">
                   <div class="pay">
                      <div class="img"><img src="online-zoo/img/pay.png" alt="" class="hand">
                      </div>
@@ -189,18 +188,17 @@
                      <div class="img"><img src="online-zoo/img/monkey.png" alt="" class="monkey"></div>
                      <p>Your favorite animal <br> gets delicious dish</p>
                   </div>
-
-               </article>
-
-               <a href="donate/donate.html"><button>FEED A FRIEND NOW</button></a>
-
+               </div>
+               <form action="donate/donate.html" method="get">
+                  <button>FEED A FRIEND NOW</button>
+               </form>
             </div>
          </div>
-         <div class="wrapper-testimonials  ">
-            <section class="testimonials  ">
+         <div class="wrapper-testimonials">
+            <section class="testimonials">
                <h3>Testimonials</h3>
                <div class="third-slider  swiper-container">
-                  <article class="testimonials-sreenshot swiper-wrapper">
+                  <div class="testimonials-sreenshot swiper-wrapper">
                      <div class="swiper-slide"><img src="online-zoo/img/testimonials1.jpg" alt="" width="266"></div>
                      <div class="swiper-slide"><img src="online-zoo/img/testimonials2.jpg" alt="" width="266"></div>
                      <div class="swiper-slide"><img src="online-zoo/img/testimonials3.jpg" alt="" width="266"></div>
@@ -217,7 +215,7 @@
                      <div class="swiper-slide"><img src="online-zoo/img/testimonials2.jpg" alt="" width="266"></div>
                      <div class="swiper-slide"><img src="online-zoo/img/testimonials3.jpg" alt="" width="266"></div>
                      <div class=" swiper-slide"><img src="online-zoo/img/testimonials4.jpg" alt="" width="266"></div>
-                  </article>
+                  </div>
                   <div class="line">
                   </div>
                </div>
@@ -291,7 +289,10 @@
             <p class="none">PetStory online</p>
             <ul class="social">
                <li class="hidden"> <a href="/Index.html"> <img src="online-zoo/icon/logo-icon.png" alt=""></a></li>
-               <li><a href="donate/donate.html"><button>DONATE FOR VOLUNTEERS</button></a></li>
+               <li>
+                  <form action="donate/donate.html" method="get">
+                     <button>DONATE FOR VOLUNTEERS</button>
+                  </form>
                <li>
                   <ul class="icon-social__wrapper">
                      <li><a href="#">
@@ -340,7 +341,7 @@
       </footer>
    </div>
    <script src="http://code.jquery.com/jquery-latest.js"></script>
-   <script type="text/javascript">
+   <script>
       $('.menu li a').click(function (e) {
          $('a').removeClass('active');
          $(this).addClass('active');

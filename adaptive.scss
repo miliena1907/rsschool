@@ -445,7 +445,7 @@
     .arrow2 {
       display: none;
     }
-    article {
+    .article {
       position: relative;
       &::before {
         content: "";
@@ -629,7 +629,7 @@
     .paragraph3 {
       display: none;
     }
-    article {
+    .article {
       width: 168px;
       display: block;
       margin-left: auto;
