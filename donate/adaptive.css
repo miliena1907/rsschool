@@ -1,0 +1,380 @@
+@media (max-width: 1000px) {
+  .wrapper-header {
+    min-width: 1000px;
+    overflow: hidden;
+    height: 470px;
+  }
+  .header-content {
+    background: url("../img/panda_bg1000.jpg") no-repeat;
+  }
+  .feed-wrapper {
+    height: 1333px;
+    max-width: 1000px;
+  }
+  .menu {
+    flex-basis: 50%;
+    justify-content: space-between;
+  }
+  .feed .text-amount {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0 0 20px 70px;
+  }
+  .feed {
+    height: 918px;
+    top: 30%;
+    left: 1.2%;
+    min-width: 940px;
+  }
+  .feed h2 {
+    padding-top: 20px;
+  }
+  footer {
+    position: relative;
+    min-width: 1000px;
+    padding-bottom: 70px;
+  }
+  footer .menu {
+    width: 300px;
+  }
+  .wrapper-input {
+    position: absolute;
+    left: 60%;
+  }
+  .help {
+    padding-left: 20px;
+  }
+  .help h1 {
+    padding-top: 40px;
+  }
+  .help p {
+    max-width: 939px;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  .help h3 {
+    padding-top: 50px;
+  }
+  .first-item {
+    display: none;
+  }
+  .scale {
+    width: 810px;
+  }
+  .scale span {
+    display: inline-block;
+    width: 65px;
+  }
+  .scale button::before {
+    content: "";
+    width: 124px;
+  }
+  .panda {
+    width: 60%;
+  }
+  .radio {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 640px) {
+  .wrapper-header {
+    min-width: 640px;
+    height: 370px;
+  }
+  .wrapper-header nav {
+    align-items: flex-start;
+    position: absolute;
+    top: 34px;
+    left: -100%;
+    width: 100%;
+    height: 335px;
+    flex-direction: column;
+    z-index: 2;
+    background: white;
+  }
+  .wrapper-header nav a {
+    color: rgb(51, 59, 65);
+  }
+  .wrapper-header .menu-active {
+    left: 0;
+  }
+  .disable {
+    background: rgb(0, 0, 0);
+  }
+  .icon-logo {
+    background-clip: content-box;
+    background: linear-gradient(0deg, rgba(254, 144, 19, 0.7647058824), rgba(254, 144, 19, 0.7647058824)), linear-gradient(0deg, #ffffff, #ffffff);
+    border: 0.95px solid rgb(254, 144, 19);
+  }
+  .header-content {
+    background: url("../img/panda_bg640.jpg") no-repeat;
+  }
+  .menu {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .feed-wrapper {
+    max-width: 640px;
+  }
+  .feed {
+    height: 918px;
+    top: 30%;
+    left: 0;
+    min-width: 600px;
+  }
+  .feed h2 {
+    padding-top: 20px;
+  }
+  footer {
+    min-width: 640px;
+    padding-bottom: 20px;
+    display: block;
+    position: relative;
+  }
+  footer .icon {
+    width: 220px;
+    left: 60%;
+    top: 75%;
+    padding-top: 0;
+  }
+  footer .menu {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .social span {
+    display: none;
+  }
+  footer .icon-social__wrapper {
+    position: absolute;
+    padding-top: 5px;
+    top: 0;
+    left: 90%;
+  }
+  .wrapper-menu {
+    margin: 50px 0px 0 10px;
+  }
+  .subscribe {
+    display: none;
+  }
+  .wrapper-input {
+    position: absolute;
+    left: 60%;
+  }
+  .help {
+    padding-left: 20px;
+  }
+  .help h1 {
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 40px;
+  }
+  .help p {
+    max-width: 600px;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  .help h3 {
+    padding-top: 50px;
+  }
+  .second-item,
+.third-item {
+    display: none;
+  }
+  .nav-icon {
+    display: block;
+  }
+  .menu-icon {
+    display: block;
+    position: relative;
+    width: 18px;
+    height: 10px;
+    cursor: pointer;
+  }
+  .menu-icon span,
+.menu-icon::before,
+.menu-icon::after {
+    left: 0;
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    background: white;
+    transition: all 0.3s ease 0s;
+  }
+  .menu-icon::after,
+.menu-icon::before {
+    content: "";
+  }
+  .menu-icon::after {
+    bottom: 0;
+  }
+  .menu-icon::before {
+    top: 0;
+  }
+  .menu-icon span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
+  .nav {
+    background: black;
+    display: flex;
+    height: 34px;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-icon-active span {
+    transform: scale(0) translate(0px, -50px);
+  }
+  .menu-icon-active::before {
+    top: 50%;
+    transform: rotate(-40deg) translate(0px, -50%);
+  }
+  .menu-icon-active::after {
+    bottom: 50%;
+    transform: rotate(40deg) translate(0px, 50%);
+  }
+  .scale {
+    width: 600px;
+  }
+  .scale span {
+    display: inline-block;
+    width: 65px;
+  }
+  .scale button::before {
+    content: "";
+    width: 124px;
+  }
+  .panda {
+    width: 90%;
+  }
+  .panda .four {
+    padding-left: 30px;
+  }
+  .radio {
+    padding-top: 30px;
+  }
+  .feed .text-amount {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0 0 20px 25px;
+  }
+}
+@media (max-width: 320px) {
+  .wrapper-header {
+    min-width: 320px;
+    height: 220px;
+  }
+  .wrapper-header nav {
+    line-height: 15px;
+    height: 187px;
+  }
+  main {
+    min-width: 320px;
+  }
+  .help {
+    padding-left: 20px;
+  }
+  .help h1,
+.help h3 {
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 40px;
+  }
+  .header-content {
+    background: url("../img/panda_bg320.jpg") no-repeat;
+  }
+  .hidden {
+    display: none;
+  }
+  .none {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+  }
+  footer {
+    min-width: 320px;
+    padding-top: 20px;
+  }
+  footer .icon-social__wrapper {
+    top: 15%;
+    left: 15%;
+    display: flex;
+  }
+  footer .icon-social {
+    margin: 10px 15px;
+  }
+  .social button {
+    margin: 80px 0 0px -20px;
+  }
+  .feed-wrapper {
+    max-width: 320px;
+    height: 1145px;
+  }
+  .feed {
+    top: 35%;
+    min-width: 300px;
+    height: 591px;
+  }
+  .feed h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+  }
+  .feed p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper-menu {
+    margin-top: 150px;
+    position: relative;
+  }
+  .wrapper-menu .icon {
+    text-align: right;
+    top: -500%;
+    left: 10%;
+    position: absolute;
+  }
+  .panda {
+    width: 100%;
+  }
+  .panda img {
+    height: 112px;
+    width: 151px;
+  }
+  .panda .four {
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+  }
+  .panda .panda-text {
+    padding-left: 0px;
+  }
+  .scale {
+    width: 300px;
+  }
+  .scale span {
+    display: inline-block;
+    width: 28.5px;
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .scale button::before {
+    content: "";
+    width: 60px;
+  }
+  .feed .text-amount {
+    padding: 0 0 20px 10px;
+    text-align: left;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
