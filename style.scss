@@ -6,7 +6,7 @@
    height: 780px;
    overflow: hidden;
    font-family: "Roboto", sans-serif;
-   background: url("../icon/Giant-Panda.jpg") no-repeat;
+   background: url("online-zoo/icon/Giant-Panda.jpg") no-repeat;
 }
 
 .navigation {
@@ -93,7 +93,7 @@ main {
    .img {
       margin-left: 100px;
    }
-   background: url("../img/flower_foto1.jpg") right no-repeat;
+   background: url("online-zoo/img/flower_foto1.jpg") right no-repeat;
    padding-bottom: 100px;
 }
 .small-screen {
@@ -103,7 +103,8 @@ main {
    max-width: 1600px;
    padding-bottom: 140px;
    position: relative;
-   background: url("../img/palm_foto.jpg") 0 100% no-repeat, url("../img/strelitzia.png") 100% 100% no-repeat;
+   background: url("online-zoo/img/palm_foto.jpg") 0 100% no-repeat,
+      url("online-zoo/img/strelitzia.png") 100% 100% no-repeat;
 }
 .swiper-container {
    max-width: 1150px;
@@ -144,10 +145,10 @@ main {
       width: 366px;
    }
    .meat {
-      background: url("../icon/meet-fish_icon.png") 98% 98% no-repeat;
+      background: url("online-zoo/icon/meet-fish_icon.png") 98% 98% no-repeat;
    }
    .banana {
-      background: url("../icon/banana-bamboo_icon.png") 98% 98% no-repeat;
+      background: url("online-zoo/icon/banana-bamboo_icon.png") 98% 98% no-repeat;
    }
 }
 .swiper-slide {
@@ -202,7 +203,7 @@ main {
 .wrapper-testimonials {
    width: 100%;
    padding-bottom: 200px;
-   background: url("../img/leav_foto.jpg") right 120% no-repeat;
+   background: url("online-zoo/img/leav_foto.jpg") right 120% no-repeat;
 }
 .none {
    display: none;

@@ -3,7 +3,7 @@
     max-width: 1000px;
     overflow: hidden;
     height: 584px;
-    background: url("../img/Giant-Panda2.jpg") no-repeat;
+    background: url("online-zoo/img/Giant-Panda2.jpg") no-repeat;
   }
   .header-content {
     font-size: 85px;
@@ -42,11 +42,11 @@
   .pets-wrapper {
     max-width: 1000px;
     padding-bottom: 180px;
-    background: url("../icon/palm_foto2.png") 0 100% no-repeat, url("../icon/strelitzia1.png") 100% 100% no-repeat;
+    background: url("online-zoo/icon/palm_foto2.png") 0 100% no-repeat, url("online-zoo/icon/strelitzia1.png") 100% 100% no-repeat;
   }
   .wrapper-testimonials {
     padding-bottom: 100px;
-    background: url("../icon/leav_foto1.png") right 120% no-repeat;
+    background: url("online-zoo/icon/leav_foto1.png") right 120% no-repeat;
   }
   .testimonials-screenshot {
     max-width: 940px;
@@ -164,7 +164,7 @@
     margin: 50px 0px 0 10px;
   }
   .wrapper-testimonials {
-    background: url("../icon/leav_foto3.png") right 112% no-repeat;
+    background: url("online-zoo/icon/leav_foto3.png") right 112% no-repeat;
   }
   .popup {
     padding-top: 20px;
@@ -216,7 +216,7 @@
   .wrapper-header {
     width: 640px;
     height: 373px;
-    background: url("../img/Giant_Panda2.jpg") no-repeat;
+    background: url("online-zoo/img/Giant_Panda2.jpg") no-repeat;
   }
   .wrapper-header nav {
     align-items: flex-start;
@@ -266,7 +266,7 @@
     max-width: 640px;
     padding-bottom: 140px;
     position: relative;
-    background: url("../img/palm_foto.jpg") 0 100% no-repeat, url("../img/strelitzia.png") 100% 100% no-repeat;
+    background: url("online-zoo/img/palm_foto.jpg") 0 100% no-repeat, url("online-zoo/img/strelitzia.png") 100% 100% no-repeat;
   }
   .swiper-container {
     max-width: 600px;
@@ -328,7 +328,7 @@
   .backstage {
     padding-left: 20px;
     max-width: 640px;
-    background: url("../img/flower_foto2.png") right no-repeat;
+    background: url("online-zoo/img/flower_foto2.png") right no-repeat;
   }
   .backstage .img {
     display: none;
@@ -337,7 +337,7 @@
     max-width: 640px;
     padding-bottom: 100px;
     position: relative;
-    background: url("../icon/palm_foto2.png") -10% 100% no-repeat, url("../icon/strelitzia2.png") 100% 100% no-repeat;
+    background: url("online-zoo/icon/palm_foto2.png") -10% 100% no-repeat, url("online-zoo/icon/strelitzia2.png") 100% 100% no-repeat;
   }
   .swiper-container {
     max-width: 610px;
@@ -438,7 +438,7 @@
     left: 24%;
     width: 100px;
     height: 70px;
-    background: url("../icon/green-arrow.png") no-repeat;
+    background: url("online-zoo/icon/green-arrow.png") no-repeat;
   }
   .feed article::after {
     content: "";
@@ -447,7 +447,7 @@
     left: 56%;
     width: 100px;
     height: 70px;
-    background: url("../icon/green-arrow.png") no-repeat;
+    background: url("online-zoo/icon/green-arrow.png") no-repeat;
   }
   .feed h3 {
     padding-top: 25px;
@@ -475,7 +475,7 @@
     max-width: 320px;
     height: 300px;
     overflow: hidden;
-    background: url("../icon/Giant-Panda320.jpg") no-repeat;
+    background: url("online-zoo/icon/Giant-Panda320.jpg") no-repeat;
   }
   .wrapper-header nav {
     height: 230px;
@@ -484,7 +484,7 @@
     max-width: 320px;
     padding-bottom: 60px;
     position: relative;
-    background: url("../icon/palm_foto320.png") 0 100% no-repeat, url("../icon/strelitzia320.png") 100% 100% no-repeat;
+    background: url("online-zoo/icon/palm_foto320.png") 0 100% no-repeat, url("online-zoo/icon/strelitzia320.png") 100% 100% no-repeat;
   }
   .swiper-container,
 .arrow,
@@ -540,10 +540,10 @@
     border-radius: 5px;
   }
   .small-screen .meat {
-    background: url("../icon/meet-fish_icon.png") 98% 98% no-repeat;
+    background: url("online-zoo/icon/meet-fish_icon.png") 98% 98% no-repeat;
   }
   .small-screen .banana {
-    background: url("../icon/banana-bamboo_icon.png") 98% 98% no-repeat;
+    background: url("online-zoo/icon/banana-bamboo_icon.png") 98% 98% no-repeat;
   }
   .choose {
     margin-top: 30px;
@@ -565,7 +565,7 @@
   }
   .backstage {
     max-width: 320px;
-    background: url("../icon/flower_foto1320.png") right -5% no-repeat;
+    background: url("online-zoo/icon/flower_foto1320.png") right -5% no-repeat;
     padding-top: 0px;
   }
   .backstage h2,
@@ -620,7 +620,7 @@
     width: 100px;
     height: 70px;
     transform: rotate(85deg);
-    background: url("../icon/green-arrow.png") no-repeat;
+    background: url("online-zoo/icon/green-arrow.png") no-repeat;
   }
   .feed article::after {
     content: "";
@@ -630,7 +630,7 @@
     width: 100px;
     height: 70px;
     transform: rotate(85deg);
-    background: url("../icon/green-arrow.png") no-repeat;
+    background: url("online-zoo/icon/green-arrow.png") no-repeat;
   }
   .pay {
     padding-top: 20px;
@@ -647,7 +647,7 @@
   }
   .wrapper-testimonials {
     padding-bottom: 60px;
-    background: url("../icon/leaf320.png") right 105% no-repeat;
+    background: url("online-zoo/icon/leaf320.png") right 105% no-repeat;
   }
   .wrapper-menu {
     margin-top: 150px;
